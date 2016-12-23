@@ -2,7 +2,14 @@ vcl 4.0;
 
 import geoip2;
 import std;
-
+import cookie;
+import directors;
+import header;
+import saintmode;
+import tcp;
+import var;
+import vsthrottle;
+import xkey;
 # Default backend definition. Set this to point to your content server.
 backend default {
     .host = "127.0.0.1";
